@@ -1,0 +1,24 @@
+<circuit type="simulide_0.1">
+ 
+Αστεπ-13: 
+<item objectName="Αστεπ-13" labelrot="0" Tristate="false" valLabely="0" Input_Imped="100000000000000" Show_id="true" labelx="-5" x="-580" Input_High_V="2.5" itemtype="Buffer" valLabelx="0" id="Not" Out_High_V="5" Out_Imped="40" hflip="1" Out_Low_V="0" Inverted="true" labely="-32" y="-308" valLabRot="0" Input_Low_V="2.5" rotation="0" vflip="1"/>
+ 
+????????????? ???-3: 
+<item objectName="????????????? ???-3" labelrot="45" valLabelx="16" y="-324" PlotterCh="0" vflip="1" Show_volt="false" itemtype="Probe" id="PackagePin2" hflip="1" Show_id="true" rotation="-45" labely="3" x="-516" valLabRot="45" labelx="13" valLabely="0"/>
+ 
+????????????? ??????????.-2: 
+<item objectName="????????????? ??????????.-2" labelrot="0" valLabely="8" Show_id="true" labelx="-94" Voltage="5" x="-628" itemtype="Fixed Voltage" valLabelx="-16" id="PackagePin1" hflip="1" labely="-8" y="-308" valLabRot="0" rotation="0" Show_Volt="false" vflip="1" Unit=" V"/>
+ 
+Connector-14: 
+<item objectName="Connector-14" endpinid="????????????? ???-3-inpin" labelrot="0" valLabely="0" Show_id="false" labelx="-16" x="-556" startpinid="Αστεπ-13-out" pointList="-556,-308,-532,-308" itemtype="Connector" valLabelx="0" id="Connector-14" hflip="1" labely="-24" y="-308" valLabRot="0" rotation="0" vflip="1" enodeid="enode-14"/>
+ 
+Connector-15: 
+<item objectName="Connector-15" endpinid="????????????? ??????????.-2-outnod" labelrot="0" valLabely="0" Show_id="false" labelx="-16" x="-604" startpinid="Αστεπ-13-in0" pointList="-604,-308,-612,-308" itemtype="Connector" valLabelx="0" id="Connector-15" hflip="1" labely="-24" y="-308" valLabRot="0" rotation="0" vflip="1" enodeid="enode-15"/>
+ 
+PlotterWidget-11: 
+<item minimized="false" x="0" mouseTracking="false" accessibleDescription="" layoutDirection="0" modal="false" baseSize="" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" maximumSize="" pos="" frameSize="" inputMethodHints="0" sizePolicy="" objectName="PlotterWidget-11" itemtype="Plotter" minimumSize="" fullScreen="false" toolTip="" rect="" childrenRegion="" contextMenuPolicy="1" windowOpacity="1" focus="false" frameGeometry="" palette="" minimumSizeHint="" accessibleName="" windowModality="0" windowIconText="" size="" maximized="false" cursor="" windowTitle="" maximumHeight="200" y="0" sizeHint="" whatsThis="" sizeIncrement="" minimumWidth="200" windowModified="false" visible="false" windowIcon="" geometry="" normalGeometry="" focusPolicy="0" styleSheet="" isActiveWindow="true" width="200" windowFilePath="" MaxVolt="500" height="200" maximumWidth="1000" statusTip="" enabled="true" updatesEnabled="true" toolTipDuration="-1" autoFillBackground="false" locale="" MinVolt="-500" childrenRect="" minimumHeight="200" acceptDrops="false"/>
+ 
+SerialPortWidget-12: 
+<item minimized="false" x="0" mouseTracking="false" accessibleDescription="" layoutDirection="0" modal="false" baseSize="" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" maximumSize="" pos="" frameSize="" inputMethodHints="0" sizePolicy="" objectName="SerialPortWidget-12" itemtype="SerialPort" minimumSize="" fullScreen="false" toolTip="" rect="" childrenRegion="" contextMenuPolicy="1" windowOpacity="1" focus="false" frameGeometry="" palette="" minimumSizeHint="" accessibleName="" windowModality="0" windowIconText="" size="" maximized="false" cursor="" windowTitle="?????????" maximumHeight="170" y="0" sizeHint="" whatsThis="" sizeIncrement="" minimumWidth="0" windowModified="false" visible="false" SettingsProp=",0,3,0,0,0" windowIcon="" geometry="" normalGeometry="" focusPolicy="0" styleSheet="" isActiveWindow="true" width="313" windowFilePath="" height="141" maximumWidth="450" statusTip="" enabled="true" updatesEnabled="true" toolTipDuration="-1" autoFillBackground="false" locale="" childrenRect="" minimumHeight="0" acceptDrops="false"/>
+ 
+</circuit>
